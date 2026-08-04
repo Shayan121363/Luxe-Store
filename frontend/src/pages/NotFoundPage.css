@@ -1,0 +1,77 @@
+.notfound-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.notfound-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.notfound-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.08;
+}
+
+.notfound-orb--1 {
+  width: 500px;
+  height: 500px;
+  background: var(--accent);
+  top: -150px;
+  left: -100px;
+}
+
+.notfound-orb--2 {
+  width: 400px;
+  height: 400px;
+  background: #a78bfa;
+  bottom: -100px;
+  right: -100px;
+}
+
+.notfound-content {
+  position: relative;
+  z-index: 1;
+}
+
+.notfound-code {
+  font-family: var(--font-display);
+  font-size: clamp(8rem, 20vw, 14rem);
+  font-weight: 300;
+  line-height: 1;
+  background: linear-gradient(135deg, var(--accent) 0%, rgba(196, 168, 90, 0.2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: fadeUp 0.6s ease both;
+}
+
+.notfound-content h1 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin-bottom: 14px;
+  animation: fadeUp 0.6s ease 0.1s both;
+}
+
+.notfound-content p {
+  color: var(--text-secondary);
+  font-size: 16px;
+  margin-bottom: 40px;
+  animation: fadeUp 0.6s ease 0.2s both;
+}
+
+.notfound-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeUp 0.6s ease 0.3s both;
+}

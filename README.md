@@ -4,9 +4,8 @@
 
 **A premium, modern e‑commerce web application showcasing luxurious products with a beautiful, responsive UI.**
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-success.svg)](#)
-[![Tech Stack](https://img.shields.io/badge/Tech%20Stack-HTML%20%7C%20CSS%20%7C%20JavaScript%20%7C%20Node.js%20%7C%20Express-lightgrey.svg)](#)
+[![Tech Stack](https://img.shields.io/badge/Tech%20Stack-HTML%20%7C%20CSS%20%7C%20JavaScript%20%7C%20React%20JS%20%7C%20Node.js%20%7C%20Express-lightgrey.svg)](#)
 
 </div>
 
@@ -22,7 +21,6 @@
 - [Project Structure](#project-structure)
 - [Environment Variables](#environment-variables)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
@@ -105,11 +103,9 @@ Contributions are highly appreciated! Please follow these steps:
 4. Commit with clear messages.
 5. Open a Pull Request describing your changes.
 
-## License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-**Shayan** – [GitHub](https://github.com/Shayan121363) • [LinkedIn](https://www.linkedin.com/in/shayan-ahmed-dev/
+**Shayan** – [GitHub](https://github.com/Shayan121363) • [LinkedIn] https://www.linkedin.com/in/shayan-ahmed-dev/
 
 ---
 *Crafted with professionalism for the open‑source community.*

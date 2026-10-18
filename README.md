@@ -32,12 +32,14 @@ Luxe Store is a full‑stack e‑commerce platform that presents a curated colle
 - 🧺 **Shopping Cart** – Add, remove, and view items instantly.
 - 🎨 **Modern UI** – Glass‑morphism cards, custom Google Font *Inter*, and CSS animations.
 - 🌙 **Dark Mode** – Automatic theming based on user preference.
+- 🗄️ **MongoDB Integration** – Persistent product data stored in MongoDB.
 
 ## Tech Stack
 - **Frontend:** HTML5, CSS3 (vanilla), JavaScript (ES6), React JS
 - **Backend:** Node.js v18+, Express
 - **Package Manager:** npm (scripts defined in `package.json`)
 - **Design:** Custom CSS with HSL color palette, Inter font from Google Fonts
+- **Database:** MongoDB
 
 ## Prerequisites
 - **Node.js** v18 or newer (includes npm)
